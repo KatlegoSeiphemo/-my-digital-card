@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    opacity: 0.85;
+}
+
+.contact p {
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.contact a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.socials {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials a {
+    font-size: 13px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.socials a:hover {
+    background-color: #e5e5e5;
+}
